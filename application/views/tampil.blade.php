@@ -40,7 +40,7 @@
           <thead class="thead-dark">
             <tr>
               <td scope="col">No</td>
-              <td scope="col">id</td>
+              <!-- <td scope="col">id</td> -->
               <td scope="col">Username</td>
               <td scope="col">Email</td>
               <td scope="col">Artikel</td>
@@ -54,7 +54,7 @@
             @foreach ($post_list as $urut => $post)
             <tr>
               <td>{{$urut+1}}</td>
-              <td scope="row">{{ $post->id }}</td>
+              <!-- <td scope="row">{{ $post->id }}</td> -->
               <td>{{ $post->user->username }}</td>
               <td>{{ $post->user->email }}</td>
               <td>{{ $post->article }}</td>
