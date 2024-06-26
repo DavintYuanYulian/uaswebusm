@@ -31,6 +31,11 @@ final class FirstInit extends AbstractMigration
 
         $this->insert('user', [
             [
+                'username' => 'davin',
+                'email' => 'davintyuan@gmail.com',
+                'created_at' => date('Y-m-d'),
+            ],
+            [
                 'username' => 'luffy',
                 'email' => 'luffy@pirate.com',
                 'created_at' => date('Y-m-d'),
